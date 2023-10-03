@@ -89,5 +89,13 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-   
+    margin: 0;
+
+}
+
+.foto {
+    width: 19px;
+    height: 19px;
+    flex-shrink: 0;
+    
 }

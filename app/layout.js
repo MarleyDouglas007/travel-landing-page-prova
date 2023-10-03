@@ -45,6 +45,15 @@ function Texto2({x, y}){
     <h2 style={{left: x, top: y }} className={styles.texto2}>Mayami is more than a honeymoon destination – it’s a perfect romantic spot for couples who like  spending time in beach. </h2>
   );
 }
+//aaaaa
+function Foto({x, y}){
+  return (
+    <p style={{left: x, top: y }} className={styles.foto}><img src='app/img/phone icon.png'/></p>
+  );
+  
+}
+
+//aaaaa
 function Telefone({x, y}){
   return (
     <p style={{left: x, top: y }} className={styles.telefone}>+38(097)8849989</p>
@@ -65,6 +74,7 @@ export default function RootLayout({ children }) {
             <ItemMenu nome="Videos"/>
             <ItemMenu nome="telefone"/>
           </Menu>
+          <Foto></Foto>
           <Telefone></Telefone>
         </header>
         <main>
