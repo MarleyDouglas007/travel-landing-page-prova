@@ -32,6 +32,9 @@ function Menu({children, x, y}){
     </ul>
   );
 }
+//aaaa
+
+//aaaa
 function Texto({x, y}){
   return (
     <h1 style={{left: x, top: y }} className={styles.texto}>Your perfect honeymoon</h1>
@@ -40,6 +43,11 @@ function Texto({x, y}){
 function Texto2({x, y}){
   return (
     <h2 style={{left: x, top: y }} className={styles.texto2}>Mayami is more than a honeymoon destination – it’s a perfect romantic spot for couples who like  spending time in beach. </h2>
+  );
+}
+function Telefone({x, y}){
+  return (
+    <p style={{left: x, top: y }} className={styles.telefone}>+38(097)8849989</p>
   );
 }
 
@@ -55,7 +63,9 @@ export default function RootLayout({ children }) {
             <ItemMenu nome="Contact"/>
             <ItemMenu nome="Blog"/>
             <ItemMenu nome="Videos"/>
+            <ItemMenu nome="telefone"/>
           </Menu>
+          <Telefone></Telefone>
         </header>
         <main>
           <Texto></Texto>
