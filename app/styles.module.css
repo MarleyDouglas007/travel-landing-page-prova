@@ -97,5 +97,10 @@
     width: 19px;
     height: 19px;
     flex-shrink: 0;
-    
+    position: absolute;
+    top: 66px;
+    left: 1102px;
+    right: 319px;
+    bottom: 815px;
+    margin: 0;
 }

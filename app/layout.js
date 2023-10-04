@@ -1,6 +1,8 @@
 import './globals.css'
 import styles from './styles.module.css'
 // import { Quicksand } from 'next/font/google'
+import Image from 'next/image';
+
 
 export const metadata = {
   title: 'Travel Landing Page',
@@ -48,7 +50,7 @@ function Texto2({x, y}){
 //aaaaa
 function Foto({x, y}){
   return (
-    <p style={{left: x, top: y }} className={styles.foto}><img src='app/img/phone icon.png'/></p>
+    <p style={{left: x, top: y }} className={styles.foto}><Image src='/phone icon.png'width={19} height={19}/></p>
   );
   
 }
