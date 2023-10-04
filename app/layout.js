@@ -74,7 +74,6 @@ export default function RootLayout({ children }) {
             <ItemMenu nome="Contact"/>
             <ItemMenu nome="Blog"/>
             <ItemMenu nome="Videos"/>
-            <ItemMenu nome="telefone"/>
           </Menu>
           <Foto></Foto>
           <Telefone></Telefone>
